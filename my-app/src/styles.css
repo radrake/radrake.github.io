@@ -65,3 +65,7 @@ p {
 .home {
     margin: auto;
 }
+
+.project-head {
+    padding-top: 1rem;
+}
