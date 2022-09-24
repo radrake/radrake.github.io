@@ -7,7 +7,7 @@ export default function Resume() {
       <h1>Resume</h1>
       <Link to="/Ryan Drake Resume.pdf" target="_blank" download>Download Resume</Link>
       <body>
-        <p>Resume here!</p>
+        <p>Resume here! Add Resume here!</p>
       </body>
     </>
   )
