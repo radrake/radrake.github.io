@@ -30,7 +30,7 @@ export default function Projects() {
         <p className="project-head"><Link to="/pokemon">PokeAPI - Pokedex</Link></p>
         
         <p>
-          In this project, I learned how to use fetch APIs and got more practice using React hooks. <br/>
+          In this project, I learned how to fetch APIs and got more practice using React hooks. <br/>
           It is a very simple project which lets you scroll through a list of pokemon. <br/>
           I followed this Web Dev Simplified tutorial: <br/>
           <a href="https://www.youtube.com/watch?v=o3ZUc7zH8BE" target="_blank" rel="noreferrer">Build A Pokémon Application With React - Tutorial</a>

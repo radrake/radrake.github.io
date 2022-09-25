@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import MyDocument from '../MyDocument'
-import MyResume from '../MyResume'
+import MyDocument from '../components/MyDocument'
+import MyResume from '../components/MyResume'
 
 export default function Resume() {
 
