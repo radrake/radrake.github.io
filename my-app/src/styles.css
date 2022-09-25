@@ -74,11 +74,12 @@ p {
     padding: 10px;
 }
 
-.react-pdf__Page__canvas {
+/* Caused crashes on mobile for some reason */
+/* .react-pdf__Page__canvas {
     width: 100% !important;
     max-width: 1080px;
     height: 100% !important;
-}
+} */
 
 .react-pdf__Page__textContent {
     display: none;
