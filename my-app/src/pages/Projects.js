@@ -17,7 +17,7 @@ export default function Projects() {
       <body>
         <p>
           These are projects that I worked on for school. <br/>
-          I showcase the projects that were loosely defined, where much of the creativity was in our hands. <br/>
+          I showcase the projects that were loosely defined, where most design choices were in our hands. <br/>
         </p>
       </body>
 
@@ -25,7 +25,7 @@ export default function Projects() {
       <body>
         <p>
           These are projects that I created by following a tutorial online. <br/>
-          I showcase these so that you can see what kind of things I have been trying to learn online.
+          I showcase these so that you can see what kind of things I have been trying to learn.
         </p>
         <p className="project-head"><Link to="/pokemon">PokeAPI - Pokedex</Link></p>
         
