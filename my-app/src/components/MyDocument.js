@@ -20,7 +20,7 @@ export default function MyDocument({ filepath }) {
                 {Array.from(
                     new Array(numPages),
                     (el,index) => (
-                        <Page height={1080} key={`page_${index+1}`} pageNumber={index+1} />
+                        <Page scale={4} key={`page_${index+1}`} pageNumber={index+1} />
                     )
                 )}
             </Document>
