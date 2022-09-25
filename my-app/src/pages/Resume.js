@@ -5,7 +5,7 @@ import MyResume from '../components/MyResume'
 
 export default function Resume() {
 
-  const [resumeLoader, setResumeLoader] = useState({loader: <MyDocument />, text: "Show with HTML"})
+  const [resumeLoader, setResumeLoader] = useState({loader: <MyDocument filepath="/Ryan Drake Resume.pdf" />, text: "Show with HTML"})
   const [loadedPDF, setLoadedPDF] = useState(true)
 
   function switchLoadedResume() {
@@ -14,7 +14,7 @@ export default function Resume() {
       setLoadedPDF(false)
     }
     else{
-      setResumeLoader({loader: <MyDocument />, text: "Show with HTML"})
+      setResumeLoader({loader: <MyDocument filepath="/Ryan Drake Resume.pdf" />, text: "Show with HTML"})
       setLoadedPDF(true)
     }
   }
