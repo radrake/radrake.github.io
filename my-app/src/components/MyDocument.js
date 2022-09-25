@@ -13,19 +13,24 @@ export default function MyDocument({ filepath }) {
 
   return (
     <>
-        {/* Load entire document at once */}
+        {/* Load only first page */}
         <center>
-            <div>
+            <Document file={filepath} onLoadSuccess={onDocumentLoadSuccess}>
+                <Page width={1080} renderTextLayer={false} pageNumber={pageNumber} dpi={300}/>
+            </Document>
+        </center>
+
+        {/* Load entire document at once */}
+        {/* <center>
             <Document file={filepath} onLoadSuccess={onDocumentLoadSuccess}>
                 {Array.from(
                     new Array(numPages),
                     (el,index) => (
-                        <Page scale={4} key={`page_${index+1}`} pageNumber={index+1} />
+                        <Page dpi={300} key={`page_${index+1}`} pageNumber={index+1} />
                     )
                 )}
             </Document>
-            </div>
-        </center>
+        </center> */}
     </>
   )
 }
