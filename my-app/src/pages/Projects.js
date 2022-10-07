@@ -4,7 +4,14 @@ import { Link } from "react-router-dom"
 export default function Projects() {
   return (
     <>
-      <h1>Projects</h1>
+      
+      <header>
+        <h1>Projects</h1>
+        <p>
+          This page is for showing off different projects that I have worked on! <br/>
+          Any project title that is hyperlinked leads to a webpage where it can be tested instantly. <br/>
+        </p>
+      </header>
       <h2 class="project-type">Personal Projects</h2>
       <body>
         <p>
