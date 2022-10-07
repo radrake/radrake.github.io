@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Pokemon from './pages/Pokemon';
 import About from './pages/About';
+import Error404 from './pages/Error404';
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={ <Projects /> } />
           <Route path="/about" element={ <About /> } />
           <Route path="/pokemon" element={ <Pokemon />} />
+          <Route path="/*" element={ <Error404 /> }></Route>
         </Routes>
       </div>
     </>
