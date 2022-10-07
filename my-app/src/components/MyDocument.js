@@ -18,6 +18,7 @@ export default function MyDocument({ filepath }) {
             <Document file={filepath} onLoadSuccess={onDocumentLoadSuccess}>
                 <Page width={1080} renderTextLayer={false} pageNumber={pageNumber} dpi={300}/>
             </Document>
+            <p>{numPages}</p>
         </center>
 
         {/* Load entire document at once */}

@@ -68,6 +68,8 @@ p {
 
 .project-head {
     padding-top: 1rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .resume-button {
@@ -78,4 +80,9 @@ p {
     width: 100% !important;
     max-width: 1080px;
     height: 100% !important;
+}
+
+.project-type {
+    padding-top: 1.5rem;
+    text-decoration: underline;
 }

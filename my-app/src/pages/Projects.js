@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <h1>Projects</h1>
-      <h2>Personal Projects</h2>
+      <h2 class="project-type">Personal Projects</h2>
       <body>
         <p>
           These are projects that I personally created without a tutorial. <br/>
@@ -18,20 +18,33 @@ export default function Projects() {
       </body>
 
 
-      <h2>School Projects</h2>
+      <h2 class="project-type">School Projects</h2>
       <body>
         <p>
           These are projects that I worked on for school. <br/>
           I showcase the projects that were loosely defined, where most design choices were in our hands. <br/>
         </p>
-        <p className="project-head">Insert project here!</p>
+        <p className="project-head">Software Engineering - Laser Tag Software</p>
         <p>
-          A project will go here once I decide to add one here!
+          In my software engineering class our main project for the class was making a laser tag software. <br/>
+          We had to create a software which simulates player entry and running a live game of laser tag. <br/>
+          For this project, most of the technical design choices were left up to the group. <br/>
+          The github repository for this project can be found here: <br/>
+          <a href="https://github.com/Software-Engineering-Spring-2022/Server_Code/tree/master" target="_blank" rel="noreferrer">Laser Tag Github Repo</a>
+        </p>
+
+        <p className="project-head">Capstone Project - Ponga Usage API</p>
+        <p>
+          As a capstone project my team worked on an API using AWS for a start-up company called Ponga. <br/>
+          This project gave the team a lot of insight into how teams work in the industry. <br/> 
+          We also learned a lot about working with AWS, specifically using API Gateway, Lambda, and DynamoDB. <br/>
+          Learning about this project and doing research for it has helped spark a deep interest in cloud computing and AWS. <br/>
+          This project is still in progress and the team is all looking forward to working on the API this year.
         </p>
       </body>
 
 
-      <h2>Tutorial Projects</h2>
+      <h2 class="project-type">Tutorial Projects</h2>
       <body>
         <p>
           These are projects that I created by following a tutorial online. <br/>
