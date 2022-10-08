@@ -3,6 +3,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
 export default function MyDocument({ filepath }) {
 
+    //eslint-disable-next-line
     const [numPages, setNumPages] = useState(null)
     const [pageNumber, setPageNumber] = useState(1);
 
@@ -16,9 +17,8 @@ export default function MyDocument({ filepath }) {
         {/* Load only first page */}
         <center>
             <Document file={filepath} onLoadSuccess={onDocumentLoadSuccess}>
-                <Page width={1080} renderTextLayer={false} pageNumber={pageNumber} dpi={300}/>
+                <Page className="resume" width={1080} renderTextLayer={false} pageNumber={pageNumber} dpi={300}/>
             </Document>
-            <p>{numPages}</p>
         </center>
 
         {/* Load entire document at once */}
