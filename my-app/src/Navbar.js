@@ -9,7 +9,7 @@ export default function Navbar({ toggle }) {
             <CustomLink to="/resume">Resume</CustomLink>
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/about">About</CustomLink>
-            <button className='theme-button' onClick={toggle}>Theme (WIP)</button>
+            {/* <button className='theme-button' onClick={toggle}>Theme (WIP)</button> */}
         </ul>
     </nav>
   )

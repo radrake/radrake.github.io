@@ -15,7 +15,7 @@ export default function Home() {
         </p>
       </body>
       <footer>
-        <p>Please note: Dark Theme does not work as intended on some pages, use Light Theme if this occurs</p>
+        
       </footer>
     </>
   )
