@@ -28,9 +28,10 @@ export default function About() {
               Working with AWS and React helped me narrow my interests in the computer science field, and I am now very excited for my future in computer science.
             </p>
 
-            <h2>What else do I do?</h2>
+            <h2>TL;DR</h2>
             <p>
-              Talk more here... Climbing, Gaming, Hanging out
+              I am Ryan, I have lived in Fayetteville, AR my entire life and I enjoy computer science.
+              My passion for CS began early in high school and I have enjoyed programming since, and am beginning to enjoy it even more as I learn more.
             </p>
         </body>
     </>

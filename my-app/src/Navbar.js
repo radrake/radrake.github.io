@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
-export default function Navbar() {
+export default function Navbar({ toggle }) {  
   return (
     <nav className="nav">
         <Link to="/" className="site-title">Ryan's Website</Link>
@@ -9,6 +9,7 @@ export default function Navbar() {
             <CustomLink to="/resume">Resume</CustomLink>
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/about">About</CustomLink>
+            <button className='theme-button' onClick={toggle}>Theme (WIP)</button>
         </ul>
     </nav>
   )

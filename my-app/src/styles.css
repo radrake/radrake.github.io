@@ -2,6 +2,38 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background: white;
+    --text-primary: black;
+    --text-secondary: white;
+    --foreground: #333;
+    --accent1: #555;
+    --accent2: #777;
+    --link: blue;
+}
+
+[data-theme='dark'] {
+    --background: #323F4B;
+    --text-primary: #CBD2D9;
+    --text-secondary: #E4E7EB;
+    --foreground: #1F2933;
+    --accent1: #3E4C59;
+    --accent2: #616E7C;
+    --link: #E4E7EB;
+}
+
+.app {
+    color: var(--text-primary);
+    background-color: var(--background);
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+a {
+    color: var(--link);
+}
+
 body {
     margin: 0;
 }
@@ -20,13 +52,20 @@ p {
 }
 
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: var(--foreground);
+    color: var(--text-secondary);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+}
+
+.theme-button {
+    background-color: var(--accent1);
+    border: 4px solid var(--background);
+    color: var(--text-secondary);
+    font: inherit;
 }
 
 .site-title {
@@ -51,11 +90,11 @@ p {
 }
 
 .nav li.active {
-    background-color: #555;
+    background-color: var(--accent1);
 }
 
 .nav li:hover {
-    background-color: #777;
+    background-color: var(--accent2);
 }
 
 .home-title {
@@ -88,7 +127,7 @@ p {
 
 .about {
     border-style: solid;
-    /* border-color: var(--foreground); */
+    border-color: var(--foreground);
     border-width: 3px;
     padding: 15px;
     padding-left: 10%;

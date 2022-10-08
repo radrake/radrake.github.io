@@ -14,6 +14,9 @@ export default function Home() {
           <a href="https://github.com/radrake/radrake.github.io" target="_blank" rel="noreferrer">https://github.com/radrake/radrake.github.io</a>
         </p>
       </body>
+      <footer>
+        <p>Please note: Dark Theme does not work as intended on some pages, use Light Theme if this occurs</p>
+      </footer>
     </>
   )
 }
