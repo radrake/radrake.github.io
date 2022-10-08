@@ -11,7 +11,7 @@ export default function Projects() {
           Any project title that is hyperlinked leads to a webpage where it can be tested instantly. <br/>
         </p> */}
       </header>
-      <body className="about">
+      <body className="info-box">
         <h2 className="project-type">Personal Projects</h2>
         <section>
           <p>

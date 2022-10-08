@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
         <h1>About Me</h1>
-        <body className="about">
+        <body className="info-box">
             <h2>Who is Ryan?</h2>
             <p>
               I am a Computer Science student at the University of Arkansas.

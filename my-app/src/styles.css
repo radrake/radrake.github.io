@@ -132,7 +132,7 @@ p {
     text-decoration: underline;
 }
 
-.about {
+.info-box {
     border-style: solid;
     border-color: var(--foreground);
     border-width: 3px;
