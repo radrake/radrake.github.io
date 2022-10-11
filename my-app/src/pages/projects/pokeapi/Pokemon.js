@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import PokemonList from './PokemonList'
 import Pagination from './Pagination'
 import axios from 'axios'
+import img from './chimchar.png'
 
 export default function Pokemon() {
     const [pokemon, setPokemon] = useState([])
@@ -38,6 +39,7 @@ export default function Pokemon() {
   
     return (
       <>
+        <img src={img} alt="" height="100" />
         <PokemonList pokemon={pokemon}/>
         <Pagination 
           goToNextPage={nextPageUrl ? goToNextPage : null}
