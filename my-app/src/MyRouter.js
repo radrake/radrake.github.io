@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
-import Pokemon from './pages/projects/Pokemon';
+import Pokemon from './pages/projects/pokeapi/Pokemon';
 import About from './pages/About';
 import Error404 from './pages/Error404'
 import { Route, Routes } from "react-router-dom"

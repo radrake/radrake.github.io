@@ -1,6 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
+/*
+  Project ideas:
+  - Snake game + potential AI
+  - Basic form with API for AWS API Gateway, Lambda, DynamoDB practice
+  - Embedded terminal in website???
+    - good for running small console-based programs
+*/
+
 export default function Projects() {
   return (
     <>
