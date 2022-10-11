@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from './Navbar';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Projects from './pages/Projects';
-import Pokemon from './pages/Pokemon';
-import About from './pages/About';
-import Error404 from './pages/Error404';
-import { Route, Routes } from "react-router-dom"
+import MyRouter from './MyRouter';
 
 function App() {
+  // Theme toggle testing - ignore
   const [theme, setTheme] = useState(
     localStorage.getItem('theme') || 'light'
   );
 
+  // Theme toggle testing - ignore
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
@@ -22,6 +18,7 @@ function App() {
     console.log(theme);
   };
 
+  // Theme toggle testing - ignore
   useEffect(() => {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
@@ -31,14 +28,7 @@ function App() {
     <div className='app' data-theme={theme}>
       <Navbar toggle={ toggleTheme }/>
       <div className='container'>
-        <Routes>
-          <Route path="/" element={ <Home /> } />
-          <Route path="/resume" element={ <Resume /> } />
-          <Route path="/projects" element={ <Projects /> } />
-          <Route path="/about" element={ <About /> } />
-          <Route path="/pokemon" element={ <Pokemon />} />
-          <Route path="/*" element={ <Error404 /> } />
-        </Routes>
+        <MyRouter />
       </div>
     </div>
   );
