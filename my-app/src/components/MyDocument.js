@@ -17,7 +17,7 @@ export default function MyDocument({ filepath }) {
         {/* Load only first page */}
         <center>
             <Document file={filepath} onLoadSuccess={onDocumentLoadSuccess}>
-                <Page className="resume" width={1080} renderTextLayer={false} pageNumber={pageNumber} dpi={300}/>
+                <Page className="document" width={1080} renderTextLayer={false} pageNumber={pageNumber}/>
             </Document>
         </center>
 

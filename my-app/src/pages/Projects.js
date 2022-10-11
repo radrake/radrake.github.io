@@ -11,25 +11,25 @@ export default function Projects() {
           Any project title that is hyperlinked leads to a webpage where it can be tested instantly. <br/>
         </p> */}
       </header>
-      <body className="info-box">
+      <div className="info-box">
         <h2 className="project-type">Personal Projects</h2>
         <section>
-          <p>
+          {/* <p>
             These are projects that I personally created without a tutorial.
             I showcase the kinds of projects I am interested in as well as simple resume projects.
-          </p>
+          </p> */}
           <h3 className="project-head">Insert project here!</h3>
           <p>
             A project will go here once I decide to add one here!
           </p>
         </section>
 
-        <h2 class="project-type">School Projects</h2>
+        <h2 className="project-type">School Projects</h2>
         <section>
-          <p>
+          {/* <p>
             These are projects that I worked on for school.
             I showcase the projects that were loosely defined, where most design choices were in our hands.
-          </p>
+          </p> */}
           <h3 className="project-head">Software Engineering - Laser Tag Software</h3>
           <p>
             In my software engineering class our main project for the class was making a laser tag software.
@@ -49,12 +49,12 @@ export default function Projects() {
           </p>
         </section>
 
-        <h2 class="project-type">Tutorial Projects</h2>
+        <h2 className="project-type">Tutorial Projects</h2>
         <section>
-          <p>
+          {/* <p>
             These are projects that I created by following a tutorial online
             I showcase these so that you can see what kind of things I have been trying to learn.
-          </p>
+          </p> */}
 
           <h3 className="project-head"><Link to="/pokemon">PokeAPI - Pokedex</Link></h3>
           <p>
@@ -72,7 +72,7 @@ export default function Projects() {
             <a href="https://www.youtube.com/watch?v=SLfhMt5OUPI" target="_blank" rel="noreferrer">How To Create A Navbar In React With Routing</a>
           </p>
         </section>
-      </body>
+      </div>
     </>
   )
 }
