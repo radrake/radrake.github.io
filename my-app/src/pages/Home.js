@@ -1,6 +1,8 @@
 import React from 'react'
+import Terminal from '../components/Terminal'
 
 export default function Home() {
+  
   return (
     <>
       <h1 className="home-title">Hello, My Name is Ryan!</h1>
@@ -15,7 +17,7 @@ export default function Home() {
         </p>
       </div>
       <footer>
-        
+        {/* <Terminal /> */}
       </footer>
     </>
   )
