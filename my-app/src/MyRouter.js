@@ -6,7 +6,7 @@ import Pokemon from './pages/projects/pokeapi/Pokemon';
 import About from './pages/About';
 import Error404 from './pages/Error404'
 import { Route, Routes } from "react-router-dom"
-import Playground from './pages/Playground';
+import Playground from './pages/projects/playground/Playground';
 
 export default function MyRouter() {
   return (
