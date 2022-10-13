@@ -1,4 +1,5 @@
 import React from 'react'
+//eslint-disable-next-line
 import Terminal from '../components/Terminal'
 
 export default function Home() {
