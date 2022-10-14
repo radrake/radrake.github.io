@@ -1,10 +1,10 @@
 import React from 'react'
-import PopupEx from './PopupEx'
+import Terminal from './Terminal'
 
 export default function Playground() {
   return (
     <>
-        <PopupEx />
+        <Terminal />
     </>
   )
 }

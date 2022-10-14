@@ -1,6 +1,4 @@
 import React from 'react'
-//eslint-disable-next-line
-import Terminal from '../components/Terminal'
 
 export default function Home() {
   
@@ -18,7 +16,7 @@ export default function Home() {
         </p>
       </div>
       <footer>
-        {/* <Terminal /> */}
+        
       </footer>
     </>
   )

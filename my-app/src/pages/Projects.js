@@ -14,21 +14,13 @@ export default function Projects() {
     <>
       <header>
         <h1>Projects</h1>
-        {/* <p>
-          This page is for showing off different projects that I have worked on. <br/>
-          Any project title that is hyperlinked leads to a webpage where it can be tested instantly. <br/>
-        </p> */}
       </header>
       <div className="info-box">
         <h2 className="project-type">Personal Projects</h2>
         <section>
-          {/* <p>
-            These are projects that I personally created without a tutorial.
-            I showcase the kinds of projects I am interested in as well as simple resume projects.
-          </p> */}
-          <h3 className="project-head">Insert project here!</h3>
+          <h3 className="project-head">Project coming soon...</h3>
           <p>
-            A project will go here once I decide to add one here!
+            A project will be posted here as soon as it's ready.
           </p>
         </section>
 

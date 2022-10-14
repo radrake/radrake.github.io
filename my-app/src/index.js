@@ -4,11 +4,14 @@ import App from './App';
 import './styles.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom"
+import {TerminalContextProvider} from 'react-terminal'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-        <App />
+        <TerminalContextProvider>
+            <App />
+        </TerminalContextProvider>
     </BrowserRouter>
 );
 
