@@ -5,8 +5,6 @@ import { Link } from "react-router-dom"
   Project ideas:
   - Snake game + potential AI
   - Basic form with API for AWS API Gateway, Lambda, DynamoDB practice
-  - Embedded terminal in website???
-    - good for running small console-based programs
 */
 
 export default function Projects() {
@@ -18,18 +16,17 @@ export default function Projects() {
       <div className="info-box">
         <h2 className="project-type">Personal Projects</h2>
         <section>
-          <h3 className="project-head">Project coming soon...</h3>
+          <h3 className="project-head"><Link to="/formapi">Form API</Link></h3>
           <p>
-            A project will be posted here as soon as it's ready.
+            I started this project to help prepare for my capstone project, which uses AWS Lambda, API Gateway, and DynamoDB.
+            To practice, I learned how to create a basic form in React and ran a GET call from the API using Axios.
+            The API I created is a REST API which triggers a lambda function that simply returns a message.
+            This project is a work in progress - more functionality will be added as I further look into these services.
           </p>
         </section>
 
         <h2 className="project-type">School Projects</h2>
         <section>
-          {/* <p>
-            These are projects that I worked on for school.
-            I showcase the projects that were loosely defined, where most design choices were in our hands.
-          </p> */}
           <h3 className="project-head">Software Engineering - Laser Tag Software</h3>
           <p>
             In my software engineering class our main project for the class was making a laser tag software.
@@ -51,10 +48,6 @@ export default function Projects() {
 
         <h2 className="project-type">Tutorial Projects</h2>
         <section>
-          {/* <p>
-            These are projects that I created by following a tutorial online
-            I showcase these so that you can see what kind of things I have been trying to learn.
-          </p> */}
 
           <h3 className="project-head"><Link to="/pokemon">PokeAPI - Pokedex</Link></h3>
           <p>

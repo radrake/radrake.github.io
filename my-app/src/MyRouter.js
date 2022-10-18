@@ -7,6 +7,7 @@ import About from './pages/About';
 import Error404 from './pages/Error404'
 import { Route, Routes } from "react-router-dom"
 import Playground from './pages/projects/playground/Playground';
+import Form from './pages/projects/formapi/Form';
 
 export default function MyRouter() {
   return (
@@ -19,6 +20,7 @@ export default function MyRouter() {
           <Route path="/about" element={ <About /> } />
           <Route path="/pokemon" element={ <Pokemon />} />
           <Route path="/playground" element={ <Playground />} />
+          <Route path="/formapi" element={ <Form />} />
         </Routes>
     </>
   )
