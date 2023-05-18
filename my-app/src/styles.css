@@ -114,6 +114,8 @@ p {
 
 .home {
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .project-head {

@@ -32,6 +32,7 @@ export default function Projects() {
             In my software engineering class our main project for the class was making a laser tag software.
             We had to create a software which simulates player entry and running a live game of laser tag.
             For this project, most of the technical design choices were left up to the group.
+            My part in this project was working on the front end design and integrating the front end with the back end using Flask.
             The github repository for this project can be found here: <br/>
             <a href="https://github.com/Software-Engineering-Spring-2022/Server_Code/tree/master" target="_blank" rel="noreferrer">Laser Tag Github Repo</a>
           </p>
@@ -39,10 +40,17 @@ export default function Projects() {
           <h3 className="project-head">Capstone Project - Ponga Usage API</h3>
           <p>
             As a capstone project my team worked on an API using AWS for a start-up company called Ponga.
+            The goal of our API was to give Ponga the information needed to ensure users are utilizing all of the services they have to offer.
+            The API is triggered with information about "value propositions" - or aspects of a service that the provider wants to know how well they are being utilized.
+            For example, Ponga is interested in seeing how well their users are utilizing the Photo uploading, commenting, and sharing capabilities.
+            So whenever a customer uploads a batch of photos, our API gets triggered to run calculations and give back an update on that user's value propositions.
+            <br/>
             This project gave the team a lot of insight into how teams work in the industry.
             We also learned a lot about working with AWS, specifically using API Gateway, Lambda, and DynamoDB.
-            Learning about this project and doing research for it has helped spark a deep interest in cloud computing and AWS.
-            This project is still in progress and the team is all looking forward to working on the API this year.
+            Learning about this project and doing research for it helped spark a deep interest in cloud computing and AWS.
+            My role in this project was working on some of the lambda functions, such as calculateAffinity and getUserData, as well as setting up the API endpoints in API Gateway.
+            The lambda functions were all written using Node.js. <br/>
+            <Link to="/capstone-flowchart.png" target="_blank">Capstone Project Flowchart</Link>
           </p>
         </section>
 

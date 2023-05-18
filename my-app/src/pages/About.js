@@ -7,7 +7,7 @@ export default function About() {
         <div className="info-box">
             <h2>Who is Ryan?</h2>
             <p>
-              I am a Computer Science student at the University of Arkansas.
+              I am a graduate from the University of Arkansas, achieving a Bachelors of Science in Computer Science with distinction.
               I have lived in Fayetteville, Arkansas my entire life and enjoy being in the Northwest Arkansas area.
               I live at home with my Pomeranian named Sassy, and I have a girlfriend with 3 other pets who I all love.
               I got interested in Computer Science early on in high school after taking a very basic programming class.
@@ -20,18 +20,18 @@ export default function About() {
               I have always been attached to my computer and taking a class where all you do is type at a computer was instantly a hit for me.
               Throughout high school I continued to pursue computer science courses and took all that my school had to offer, including the AP classes.
               I decided to further pursue computer science in college and get a degree to eventually make a career out of this passion.
-              Computer science in college was a lot of the same that I had been working with for years for a long time, and slowly became boring in the beginning years of college.
-              It was not until my junior year when the classes began getting a little more technical, but still not too exciting.
+              Computer science in college was a lot of the same that I had been working with for years for a long time, which left me feeling unchallenged during the beginning years of college.
+              It was not until my junior year when the classes began getting a little more technical and interest began to spark once again.
               By my senior year, my passion for writing code and working on more challenging projects had been rekindled, and I began tackling larger personal projects.
               Now, I am working on this website to learn React and front-end development.
-              Additionally, I am beginning to learn AWS Lambda, API Gateway, and DynamoDB so that I am prepared to build my capstone project in the spring semester.
+              Additionally, I began to learn AWS Lambda, API Gateway, and DynamoDB so that I was prepared to build my capstone project in the spring semester.
               Working with AWS and React helped me narrow my interests in the computer science field, and I am now very excited for my future in computer science.
             </p>
 
             <h2>TL;DR</h2>
             <p>
               I am Ryan, I have lived in Fayetteville, AR my entire life and I enjoy computer science.
-              My passion for CS began early in high school and I have enjoyed programming since, and am beginning to enjoy it even more as I learn more.
+              My passion for CS began early in high school and I have enjoyed programming since, and I am beginning to enjoy it even more as I continue to learn.
             </p>
         </div>
     </>
