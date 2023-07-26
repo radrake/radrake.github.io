@@ -72,7 +72,6 @@ export default function Projects() {
 
   const handlePopup = (e) => {
     setPopup(true)
-    console.log(projects.find(item => item.title === e.target.name))
     setShownProject(projects.find(item => item.title === e.target.name))
   }
 
