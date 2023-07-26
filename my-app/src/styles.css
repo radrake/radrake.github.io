@@ -143,8 +143,8 @@ p {
     border-color: var(--foreground);
     border-width: 3px;
     padding: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     max-width: 1000px;
     margin: 0 auto;
     text-align: justify;
@@ -152,4 +152,88 @@ p {
 
 .document {
     margin-top: 20px;
+}
+
+.unclick{
+    pointer-events: none;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.card{
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid var(--accent1);
+    background-color: var(--accent2);
+    color: var(--text-primary);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.card p{
+    font-size: 17px;
+}
+
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background-color: rgba(22,22,22,0.5);
+}
+
+.popup .wrapper{
+    background:#e1e1e1; 
+    margin: 0 auto;
+    width:800px; 
+    position:relative; 
+    z-index:41;
+    top: 25%;
+    padding:30px; 
+    background-color: var(--foreground);
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    border: 3px solid var(--accent1);
+}
+
+.popup .wrapper .wip{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    opacity: 0.5;
+}
+.popup .wrapper .redirect{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.popup .wrapper button{
+    background-color: var(--accent2);
+    border: 2px solid var(--accent1);
+    color: var(--text-primary);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.popup .wrapper .title{
+    font-size: 28px;
+}
+
+.popup .wrapper .headline{
+    font-size: 22px;
 }
